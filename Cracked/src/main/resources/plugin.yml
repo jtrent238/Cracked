@@ -1,0 +1,10 @@
+name: Cracked
+main: com.jtrent238.cracked.Cracked
+version: 0.0.1-SNAPSHOT
+author: jtrent238
+commands:
+   basic:
+      description: This is a demo command.
+      usage: /basic [player]
+      permission: cracked.basic
+      permission-message: &4You don't have Permission!
