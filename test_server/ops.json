@@ -2,7 +2,7 @@
   {
     "uuid": "962338d7-8deb-47c3-b144-f64eab941480",
     "name": "jtrent238",
-    "level": 4,
-    "bypassesPlayerLimit": false
+    "level": 999999,
+    "bypassesPlayerLimit": true
   }
 ]
