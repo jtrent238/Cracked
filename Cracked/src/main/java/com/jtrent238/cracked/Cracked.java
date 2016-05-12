@@ -22,7 +22,7 @@ public final class Cracked extends JavaPlugin {
     	getLogger().info("onDisable has been invoked!");
     	getLogger().log(Level.INFO, "§b§l§kXXX §a§lCracked Made By: jtrent238 §b§l§kXXX§r");
    	getLogger().log(Level.INFO, "§b§l§kXXX §a§lPlugin Is WIP! §b§l§kXXX§r");
-   	   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lBye! §b§l§kXXX§r");
+   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lBye! §b§l§kXXX§r");
     }
     
     @Override
