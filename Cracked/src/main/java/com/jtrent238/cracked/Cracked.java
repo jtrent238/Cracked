@@ -15,6 +15,7 @@ public final class Cracked extends JavaPlugin {
     public void onEnable() {
 		getLogger().info("onEnable has been invoked!");
 		this.getCommand("basic").setExecutor(new MyPluginCommandExecutor(this));
+		this.getCommand("list").setExecutor(new MyPluginCommandExecutor(this));
     }
     
     @Override
