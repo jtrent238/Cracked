@@ -20,18 +20,24 @@ public final class Cracked extends JavaPlugin {
     @Override
     public void onDisable() {
     	getLogger().info("onDisable has been invoked!");
+    	getLogger().log(Level.INFO, "§b§l§kXXX §a§lCracked Made By: jtrent238 §b§l§kXXX§r");
+   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lPlugin Is WIP! §b§l§kXXX§r");
+   	   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lBye! §b§l§kXXX§r");
     }
     
     @Override
     public void onLoad(){
     	getLogger().info("onLoad has been invoked!");
+   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lHello! §b§l§kXXX§r");
+    	getLogger().log(Level.INFO, "§b§l§kXXX §a§lCracked Made By: jtrent238 §b§l§kXXX§r");
+   	getLogger().log(Level.INFO, "§b§l§kXXX §a§lPlugin Is WIP! §b§l§kXXX§r");
     }
     
    // @EventHandler
    // public void onLogin(PlayerLoginEvent event) {
    // 	getLogger().log(Level.INFO, "Player " + event.getPlayer().getName() + " is logging in!");
-   // 	getLogger().log(Level.INFO, "�b�l�kXXX �a�lCracked Made By: jtrent238 �b�l�kXXX�r");
-   // 	getLogger().log(Level.INFO, "�b�l�kXXX �a�lPlugin Is WIP! �b�l�kXXX�r");
+   // 	getLogger().log(Level.INFO, "§b§l§kXXX §a§lCracked Made By: jtrent238 §b§l§kXXX§r");
+   // 	getLogger().log(Level.INFO, "§b§l§kXXX §a§lPlugin Is WIP! §b§l§kXXX§r");
    // }
     
     @EventHandler
